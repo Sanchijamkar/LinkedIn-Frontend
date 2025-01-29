@@ -25,5 +25,6 @@ Static home page design
 <strong>Start the development server:</strong>  
 <li>npm run dev</li>
 <br />
-# Contributing  
+
+# Contributing 
 Feel free to open issues or submit pull requests if you'd like to contribute to this project. Whether it's fixing bugs, adding new features, or improving the design, your contributions are welcome!
