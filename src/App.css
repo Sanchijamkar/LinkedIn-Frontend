@@ -2,3 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Main Header */
+.main-header-logo {
+    height: 35px;
+    width: 35px;
+}
+
+.main-header-search-icon {
+    height: 20px;
+    width: 20px;
+    background-color: #6c6c6c;
+}
+
+.main-header-home-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.main-header-myNetwork-icon {
+    height: 27px;
+    width: 27px;
+}
+
+.main-header-jobs-icon {
+    height: 23px;
+    width: 23px;
+}
+
+.main-header-messaging-icon {
+    height: 23px;
+    width: 23px;
+}

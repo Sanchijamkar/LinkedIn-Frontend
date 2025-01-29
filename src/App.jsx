@@ -1,11 +1,11 @@
 import './App.css'
-import HomePage from './components/page-level/HomePage';
+import MainHeader from './components/reusable/MainHeader'
 
 function App() {
   return (
     <>
       <div className='main-container box-border w-screen h-screen'>
-        
+        <MainHeader />
       </div>
     </>
   );
