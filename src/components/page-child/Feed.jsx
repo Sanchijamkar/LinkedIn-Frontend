@@ -3,7 +3,7 @@ import WelcomeBanner from "./child-level-2/WelcomeBanner";
 
 const Feed = () => {
     return (
-        <div className="">
+        <div className="mt-4 ">
             <WelcomeBanner />
         </div>
     );

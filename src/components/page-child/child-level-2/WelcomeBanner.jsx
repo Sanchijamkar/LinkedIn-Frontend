@@ -41,7 +41,7 @@ const WelcomeBanner = () => {
            Check your feed for the latest updates or news.
           </p>
 
-         <div className=' mr-3 absolute right-0 bottom-44'>
+         <div className=' mr-3 absolute right-0 bottom-16'>
           <svg xmlns= "credits sa owner" width="38" height="38" viewBox="0 0 24 24" 
             fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="10" fill="grey"></circle>
