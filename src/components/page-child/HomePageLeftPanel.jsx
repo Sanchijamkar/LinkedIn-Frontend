@@ -3,6 +3,7 @@ import ViewAllAnalytics from "./child-level-2/ViewAllAnalytics";
 import Connections from "./child-level-2/connections";
 import SavedItems from "./child-level-2/SavedItems";
 import PremiumIcon from "../../assets/imgs/premium-icon.webp";
+import GroupsAndEvents from "./child-level-2/GroupsAndEvents";
 
 const HomePageLeftPanel = () => {
     return (
@@ -18,6 +19,7 @@ const HomePageLeftPanel = () => {
                 </div>
             </div>
             <SavedItems />
+            <GroupsAndEvents />
         </div>
     );
 }
