@@ -8,8 +8,8 @@ const UserProfileCard = () => {
             <div className="user-profile-card-header"></div>
             <div className="user-profile-card-info flex flex-col items-center justify-center gap-1 p-2">
                 <img src={UserProfilePhoto} alt="Profile Photo" />
-                <h2 className="mt-2">John Cyril Espina</h2>
-                <p>Student at University of Science and Technology of Souhern Philippines</p>
+                <h2 className="mt-2">Glenn Mark Anino</h2>
+                <p>Student at University of Science and Technology of Southern Philippines</p>
             </div>
         </div>
     );
