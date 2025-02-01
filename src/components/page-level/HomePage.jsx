@@ -1,6 +1,7 @@
 import HomePageLeftPanel from "../page-child/HomePageLeftPanel";
 import Feed from "../page-child/Feed";
 import HomePageRightPanel from "../page-child/HomePageRightPanel";
+import MainPageFooter from "../reusable/MainPageFooter";
 
 const HomePage = () => {
     return (
@@ -8,6 +9,7 @@ const HomePage = () => {
             <HomePageLeftPanel />
             <Feed />
             <HomePageRightPanel />
+            <MainPageFooter />
         </div>
     );
 }

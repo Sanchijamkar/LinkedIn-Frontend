@@ -5,7 +5,7 @@ import HomePage from './components/page-level/HomePage'
 function App() {
   return (
     <>
-      <div className='main-container box-border w-screen'>
+      <div className='main-container box-border w-screen pb-10'>
         <MainHeader />
         <HomePage />
       </div>
