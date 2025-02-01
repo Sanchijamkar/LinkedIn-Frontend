@@ -10,7 +10,7 @@ const GroupsAndEvents = () => {
                 <Groups />
                 <Events />
             </div>
-            <div className="group-and-events-discover-more text-center p-2">
+            <div className="group-and-events-discover-more text-center p-2 pt-3">
                 <p>Discover more</p>
             </div>
         </div>
