@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 const WelcomeBanner = () => {
   return (
 
@@ -72,4 +73,4 @@ const WelcomeBanner = () => {
   )
 }
 
-export default WelcomeBanner
+export default WelcomeBanner;
