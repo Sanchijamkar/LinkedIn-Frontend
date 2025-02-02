@@ -4,7 +4,7 @@ const WelcomeBanner = () => {
   return (
 
 
-    <div className="welcome-banner bg-white mx-auto height-welcome-card w-auto">
+    <div className="welcome-banner bg-white mx-auto height-welcome-card w-auto relative">
       <h1 className="text-xl font-medium text-black text-left px-5 pt-4">
         Welcome to LinkedIn
       </h1>
@@ -51,7 +51,7 @@ const WelcomeBanner = () => {
           Check your feed for the latest updates or news.
         </p>
 
-        <div className="mr-3 absolute right-0 bottom-16">
+        <div className="mr-3 absolute right-0 bottom-40">
           <svg
             xmlns="credits sa owner"
             width="38"

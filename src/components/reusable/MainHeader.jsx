@@ -27,7 +27,7 @@ const MainHeader = () => {
                 <img src={SearchIcon} alt="Search Bar Icon" className="main-header-search-icon" />
 
                 {/* Home Button with Refresh Fix */}
-                <button onClick={ () => goToHome("/Home")}>
+                <button onClick={ () => goToHome("/home")}>
                     <img src={HomePageIcon} alt="Home Page Icon" className="main-header-home-icon" />
                 </button>
 
