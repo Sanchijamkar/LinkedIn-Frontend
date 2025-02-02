@@ -207,6 +207,13 @@
     color: var(--text-grey-color);
 }
 
+/* Show less and Show more */
+.show-more-less p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-grey-color);
+}
+
 
 /* Welcome Banner */
 .welcome-banner {
@@ -217,6 +224,117 @@
 .height-welcome-card {
     height: 26.5rem;
 }
+
+/*Create Post Section*/
+.create-post {
+    margin-top: 6.5px;
+    width: 100%;
+    height: 122px;
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.create-post-divider div {
+    width: 78%;
+    height: 1px;
+    background-color: var(--text-grey-color);
+}
+
+.create-post-divider p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.create-post-divider span {
+    color: black;
+    font-weight: 600;
+}
+
+
+/* Post List */
+.post-list-item-divider {
+    width: 98%;
+    height: 1px;
+    background-color: var(--border-main-separator-color);
+}
+
+.post-list-item {
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.post-list-item-header p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-head-left img {
+    width: 50px;
+    height: 45px;
+    margin-bottom: 8px;
+}
+
+.post-list-item-body-head-main h3 {
+    font-weight: 600;
+}
+
+.post-list-item-body-head-main p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-head-right p {
+    font-weight: 600;
+    color: var(--text-blue-color);
+}
+
+.post-list-item-body-caption p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.post-list-item-body-caption span {
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-content {
+    width: 100%;
+    height: 250px;
+}
+
+.post-list-item-reactions p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-actions {
+    border-top: 1px solid var(--border-main-separator-color);
+}
+
+.post-list-item-reactions svg:nth-child(1) {
+    transform: scaleX(-1);
+}
+
+.post-list-item-actions svg:nth-last-child(1) {
+    transform: scaleX(-1);
+}
+
+.post-list-item-actions p {
+    color: var(--text-grey-color);
+    font-weight: 500;
+}
+
+.post-show-more-updates p {
+    font-size: 14px;
+    color: var(--text-grey-color);
+    font-weight: 500;
+    border: 2px solid var(--text-grey-color);
+    width: 65%;
+    border-radius: 12px;
+}
+
 
 
 /* Home Page Right Panel */
@@ -290,7 +408,6 @@
 }
 
 
-
 /* Main Page Footer */
 .main-page-footer {
     width: 100%;
@@ -319,12 +436,3 @@
     margin-right: 2px;
 }
 
-/*Create Post Section*/
-.create-post {
-    margin-top: 6.5px;
-    width: 100%;
-    height: 122px;
-    background-color: var(--header-main-color);
-    border-top: 1px solid var(--border-main-separator-color);
-    border-bottom: 1px solid var(--border-main-separator-color);
-}
