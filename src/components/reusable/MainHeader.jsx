@@ -7,6 +7,7 @@ import JobsIcon from '../../assets/imgs/jobs-icon.png';
 import MessagingIcon from '../../assets/imgs/messaging-icon.png';
 import NotificationIcon from '../../assets/imgs/notification-icon.jpg';
 import ProfilePhoto from '../../assets/imgs/profile-photo.png';
+import PremiumIcon from "../../assets/imgs/premium-icon.webp";
 
 const MainHeader = () => {
     const navigate = useNavigate();
@@ -21,10 +22,12 @@ const MainHeader = () => {
     };
 
     return (
-        <div className="main-header w-full">
-            <div className="flex gap-1 items-center justify-around p-2">
-                <img src={LinkedinLogo} alt="LinkedIn Logo" className="main-header-logo" />
-                <img src={SearchIcon} alt="Search Bar Icon" className="main-header-search-icon" />
+        <div className="main-header w-full flex justify-around">
+            <div className="w-full flex gap-3  items-center justify-around p-2">
+                <div className="flex gap-4 items-center">
+                    <img src={LinkedinLogo} alt="LinkedIn Logo" className="main-header-logo" />
+                    <img src={SearchIcon} alt="Search Bar Icon" className="main-header-search-icon" />
+                </div>
 
                 {/* Home Button with Refresh Fix */}
                 <button onClick={ () => goToHome("/home")}>
@@ -55,6 +58,42 @@ const MainHeader = () => {
                 <button onClick={() => navigate("/profile")}>
                     <img src={ProfilePhoto} alt="User Profile Photo" className="main-header-profile-photo" />
                 </button>
+
+                <div className="hidden xxs:block xs:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                </div>
+            </div>
+            <div className="main-header-divider hidden xs:block"></div>
+            <div className="main-header-right-part hidden xs:flex xs:px-5">
+                <div className="flex items-center gap-8">
+                    <div className="flex items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width={24}
+                            height={24}
+                            viewBox="0 0 24 24"
+                            fill={"black"}
+                        >
+                            <rect x="3" y="3" width="5" height="5" rx="1" />
+                            <rect x="10" y="3" width="5" height="5" rx="1" />
+                            <rect x="17" y="3" width="5" height="5" rx="1" />
+                            <rect x="3" y="10" width="5" height="5" rx="1" />
+                            <rect x="10" y="10" width="5" height="5" rx="1" />
+                            <rect x="17" y="10" width="5" height="5" rx="1" />
+                            <rect x="3" y="17" width="5" height="5" rx="1" />
+                            <rect x="10" y="17" width="5" height="5" rx="1" />
+                            <rect x="17" y="17" width="5" height="5" rx="1" />
+                        </svg>
+                    </div>
+                    <div className="hidden sm:block">
+                        <div className="flex flex-col items-center">
+                            <img src={PremiumIcon} alt="Premium Icon" />
+                            <p className="text-nowrap">Try Premium for PHP0</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
