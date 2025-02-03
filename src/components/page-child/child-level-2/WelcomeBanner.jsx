@@ -5,9 +5,15 @@ const WelcomeBanner = () => {
 
 
     <div className="welcome-banner bg-white mx-auto height-welcome-card w-auto relative">
-      <h1 className="text-xl font-medium text-black text-left px-5 pt-4">
-        Welcome to LinkedIn
-      </h1>
+      <div className='flex items-center justify-between pt-4 px-5'>
+        <h1 className="text-xl font-medium text-black text-left">
+          Welcome to LinkedIn
+        </h1>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="size-5">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+
+      </div>
 
       <div className="m-3 w-auto mb-1 mt-2">
         <div className="flex justify-start items-center">
@@ -24,7 +30,7 @@ const WelcomeBanner = () => {
         </div>
       </div>
 
-      <div className="bg-green-100 mx-5 py-20  w-auto h-80 ">
+      <div className="welcome-banner-bg mx-5 py-20  w-auto h-80 ">
 
         <div className="flex justify-center">
           <svg

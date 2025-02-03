@@ -78,6 +78,8 @@
 .user-profile-card-overlay {
     z-index: 0;
     background-color: rgb(146, 201, 201);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
 }
 
 .user-profile-card-info {
@@ -90,10 +92,12 @@
     border-radius: 50%;
     z-index: 10;
     margin-top: 10px;
+    border: 3px solid var(--header-main-color);
 }
 
 .user-profile-card-info h2 {
-    font-weight: 600;
+    font-weight: 650;
+    font-size: 18px;
 }
 
 .user-profile-card-info p {
@@ -219,6 +223,10 @@
 .welcome-banner {
     border-top: 1px solid var(--border-main-separator-color);
     border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.welcome-banner-bg {
+    background-color: #daebd1;
 }
 
 .height-welcome-card {
