@@ -20,7 +20,7 @@ const MainHeader = () => {
         <div className="main-header w-full py-1 xs:py-0">
             <div className="flex justify-around lg:max-w-screen-lg mx-auto">
                 <div className="w-full flex gap-3  items-center justify-around px-2">
-                    <div className="flex gap-4 items-center w-fit">
+                    <div className="flex gap-3 me-3 items-center w-fit">
                         <img src={LinkedinLogo} alt="LinkedIn Logo" className="main-header-logo" />
                         <div className="flex items-center gap-1">
                             <div className="flex flex-col items-center">
@@ -119,10 +119,10 @@ const MainHeader = () => {
                             </svg>
                             <p className="header-icon-text hidden d:block">Business</p>
                         </div>
-                        <div className="hidden sm:block">
+                        <div className="hidden sm:block mt-1">
                             <div className="flex flex-col items-center">
                                 <img src={PremiumIcon} alt="Premium Icon" />
-                                <p className="text-nowrap">Try Premium for PHP0</p>
+                                <p className="text-nowrap mt-1">Try Premium for PHP0</p>
                             </div>
                         </div>
                     </div>
