@@ -1,12 +1,19 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+  /** @type {import('tailwindcss').Config} */
+  export default {
+    content: [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}",
+    ],
+    theme: {
+      extend: {
+        screens: {
+          "xxs": "500px",
+          "xs": "524px", 
+          "s": "550px",
+          "d": "850px",
+        }
+      },
+    },
+    plugins: [],
+  }
 

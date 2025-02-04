@@ -8,6 +8,7 @@
     --border-main-separator-color: #e5e5e5;
     --text-grey-color: #6c6c6c;
     --text-blue-color: #0a66c2;
+    --text-black-color: #2c2c2c;
     --btn-black-color-1: #262626;
     --border-btn-color-1: #2c2c2c;
 }
@@ -19,46 +20,80 @@
 }
 
 .main-header-logo {
-    height: 35px;
-    width: 35px;
+    height: 26px;
+    width: 26px;
 }
 
 .main-header-search-icon {
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
 }
 
 .main-header-home-icon {
-    height: 22px;
-    width: 22px;
+    height: 16px;
+    width: 16px;
 }
 
 .main-header-myNetwork-icon {
-    height: 31px;
-    width: 31px;
+    height: 25px;
+    width: 25px;
 }
 
 .main-header-jobs-icon {
-    height: 25px;
-    width: 25px;
+    height: 19px;
+    width: 19px;
 }
 
 .main-header-messaging-icon {
-    height: 25px;
-    width: 25px;
+    height: 19px;
+    width: 19px;
 }
 
 .main-header-notification-icon {
-    height: 29px;
-    width: 29px;
+    height: 23px;
+    width: 23px;
 }
 
 .main-header-profile-photo {
-    height: 27px;
-    width: 27px;
+    height: 21px;
+    width: 21px;
     border-radius: 50%;
 }
 
+.main-header-divider {
+    height: 32px;
+    width: 1px;
+    background-color: var(--border-main-separator-color);
+}
+
+.main-header-right-part img {
+    width: 11px;
+    height: 11px;
+    border-radius: 3px;
+}
+
+.main-header-right-part p {
+    font-size: 11px;
+    color: var(--text-grey-color);
+}
+
+/* .header-icon-text {
+    font-size: 13px;
+    color: var(--text-grey-color);
+} */
+
+.main-header-search-bar {
+    height: 25px;
+    width: 100%;
+    background-color: #c7dfec52;
+    border-radius: 3px;
+    color: black;
+}
+
+.main-header-search-bar::placeholder {
+    color: black;
+    font-size: 11px;
+}
 
 /* Main Container */
 .main-container {
@@ -78,6 +113,8 @@
 .user-profile-card-overlay {
     z-index: 0;
     background-color: rgb(146, 201, 201);
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
 }
 
 .user-profile-card-info {
@@ -90,10 +127,12 @@
     border-radius: 50%;
     z-index: 10;
     margin-top: 10px;
+    border: 3px solid var(--header-main-color);
 }
 
 .user-profile-card-info h2 {
-    font-weight: 600;
+    font-weight: 650;
+    font-size: 18px;
 }
 
 .user-profile-card-info p {
@@ -101,6 +140,24 @@
     font-weight: 300;
     color: var(--text-grey-color);
 }
+
+.user-profile-card-info .user-profile-university {
+    color: var(--text-black-color);
+    font-weight: 400;
+}
+
+.user-profile-card-info .user-profile-university-logo img {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 3px solid var(--header-main-color);
+}
+
+.user-profile-card-info .user-profile-university-logo p {
+    color: var(--btn-black-color-1);
+    font-weight: 450
+}
+
 
 /* View All Analytics */
 .view-all-analytics p {
@@ -207,6 +264,13 @@
     color: var(--text-grey-color);
 }
 
+/* Show less and Show more */
+.show-more-less p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-grey-color);
+}
+
 
 /* Welcome Banner */
 .welcome-banner {
@@ -214,9 +278,124 @@
     border-bottom: 1px solid var(--border-main-separator-color);
 }
 
+.welcome-banner-bg {
+    background-color: #daebd1;
+}
+
 .height-welcome-card {
     height: 26.5rem;
 }
+
+/*Create Post Section*/
+.create-post {
+    margin-top: 6.5px;
+    width: 100%;
+    height: 122px;
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.create-post-divider div {
+    width: 78%;
+    height: 1px;
+    background-color: var(--text-grey-color);
+}
+
+.create-post-divider p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.create-post-divider span {
+    color: black;
+    font-weight: 600;
+}
+
+
+/* Post List */
+.post-list-item-divider {
+    width: 98%;
+    height: 1px;
+    background-color: var(--border-main-separator-color);
+}
+
+.post-list-item {
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.post-list-item-header p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-head-left img {
+    width: 50px;
+    height: 45px;
+    margin-bottom: 8px;
+}
+
+.post-list-item-body-head-main h3 {
+    font-weight: 600;
+}
+
+.post-list-item-body-head-main p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-head-right p {
+    font-weight: 600;
+    color: var(--text-blue-color);
+}
+
+.post-list-item-body-caption p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.post-list-item-body-caption span {
+    color: var(--text-grey-color);
+}
+
+.post-list-item-body-content {
+    width: 100%;
+    height: 250px;
+}
+
+.post-list-item-reactions p {
+    font-size: 13px;
+    color: var(--text-grey-color);
+}
+
+.post-list-item-actions {
+    border-top: 1px solid var(--border-main-separator-color);
+}
+
+.post-list-item-reactions svg:nth-child(1) {
+    transform: scaleX(-1);
+}
+
+.post-list-item-actions svg:nth-last-child(1) {
+    transform: scaleX(-1);
+}
+
+.post-list-item-actions p {
+    color: var(--text-grey-color);
+    font-weight: 500;
+}
+
+.post-show-more-updates p {
+    font-size: 14px;
+    color: var(--text-grey-color);
+    font-weight: 500;
+    border: 2px solid var(--text-grey-color);
+    width: 65%;
+    border-radius: 12px;
+}
+
 
 
 /* Home Page Right Panel */
@@ -290,7 +469,6 @@
 }
 
 
-
 /* Main Page Footer */
 .main-page-footer {
     width: 100%;
@@ -319,12 +497,3 @@
     margin-right: 2px;
 }
 
-/*Create Post Section*/
-.create-post {
-    margin-top: 6.5px;
-    width: 100%;
-    height: 122px;
-    background-color: var(--header-main-color);
-    border-top: 1px solid var(--border-main-separator-color);
-    border-bottom: 1px solid var(--border-main-separator-color);
-}
