@@ -8,6 +8,7 @@
     --border-main-separator-color: #e5e5e5;
     --text-grey-color: #6c6c6c;
     --text-blue-color: #0a66c2;
+    --text-black-color: #2c2c2c;
     --btn-black-color-1: #262626;
     --border-btn-color-1: #2c2c2c;
 }
@@ -122,6 +123,24 @@
     font-weight: 300;
     color: var(--text-grey-color);
 }
+
+.user-profile-card-info .user-profile-university {
+    color: var(--text-black-color);
+    font-weight: 400;
+}
+
+.user-profile-card-info .user-profile-university-logo img {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    border: 3px solid var(--header-main-color);
+}
+
+.user-profile-card-info .user-profile-university-logo p {
+    color: var(--btn-black-color-1);
+    font-weight: 450
+}
+
 
 /* View All Analytics */
 .view-all-analytics p {
