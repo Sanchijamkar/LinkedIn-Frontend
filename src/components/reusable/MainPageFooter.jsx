@@ -24,5 +24,5 @@ const MainPageFooter = () => {
         </div>
     );
 }
-
+// testing kay diko maka push
 export default MainPageFooter;
