@@ -20,63 +20,80 @@
 }
 
 .main-header-logo {
-    height: 35px;
-    width: 35px;
+    height: 26px;
+    width: 26px;
 }
 
 .main-header-search-icon {
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
 }
 
 .main-header-home-icon {
-    height: 22px;
-    width: 22px;
+    height: 16px;
+    width: 16px;
 }
 
 .main-header-myNetwork-icon {
-    height: 31px;
-    width: 31px;
+    height: 25px;
+    width: 25px;
 }
 
 .main-header-jobs-icon {
-    height: 25px;
-    width: 25px;
+    height: 19px;
+    width: 19px;
 }
 
 .main-header-messaging-icon {
-    height: 25px;
-    width: 25px;
+    height: 19px;
+    width: 19px;
 }
 
 .main-header-notification-icon {
-    height: 29px;
-    width: 29px;
+    height: 23px;
+    width: 23px;
 }
 
 .main-header-profile-photo {
-    height: 27px;
-    width: 27px;
+    height: 21px;
+    width: 21px;
     border-radius: 50%;
 }
 
 .main-header-divider {
-    height: 52px;
+    height: 32px;
     width: 1px;
     background-color: var(--border-main-separator-color);
 }
 
 .main-header-right-part img {
-    width: 17px;
-    height: 17px;
+    width: 11px;
+    height: 11px;
     border-radius: 3px;
 }
 
 .main-header-right-part p {
-    font-size: 13px;
+    font-size: 11px;
     color: var(--text-grey-color);
 }
 
+/* .header-icon-text {
+    font-size: 13px;
+    color: var(--text-grey-color);
+} */
+
+.main-header-search-bar {
+    height: 25px;
+    width: 100%;
+    background-color: #c7dfec52;
+    border-radius: 3px;
+    color: black;
+}
+
+.main-header-search-bar::placeholder {
+    color: black;
+    font-size: 11px;
+}
 
 /* Main Container */
 .main-container {
