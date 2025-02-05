@@ -7,7 +7,7 @@ import GroupsAndEvents from "./child-level-2/GroupsAndEvents";
 
 const HomePageLeftPanel = () => {
     return (
-        <div className="home-page-left-panel">
+        <div className="home-page-left-panel md:bg-transparent md:rounded-lg">
             <UserProfileCard />
             <ViewAllAnalytics />
             <Connections />

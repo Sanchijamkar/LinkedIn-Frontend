@@ -117,6 +117,10 @@
     border-top-left-radius: 9px;
 }
 
+.user-profile-card {
+    background-color: var(--header-main-color);
+}
+
 .user-profile-card-info {
     border-bottom: 1px solid var(--border-main-separator-color);
 }
@@ -160,6 +164,10 @@
 
 
 /* View All Analytics */
+.view-all-analytics {
+    background-color: var(--header-main-color);
+}
+
 .view-all-analytics p {
     font-size: 13px;
     font-weight: 500;
@@ -168,6 +176,7 @@
 /* Connections */
 .connections {
     border-bottom: 1px solid var(--border-main-separator-color);
+    background-color: var(--header-main-color);
 }
 
 .connections p {
@@ -188,6 +197,7 @@
 /* Premium Section */
 .premium-section {
     border-bottom: 1px solid var(--border-main-separator-color);
+    background-color: var(--header-main-color);
 }
 
 .premium-section img {
@@ -207,6 +217,10 @@
 }
 
 /* Saved Items */
+.saved-items {
+    background-color: var(--header-main-color);
+}
+
 .saved-items img {
     width: 11px;
     height: 11px;

@@ -5,7 +5,7 @@ import PostList from "./child-level-2/PostList";
 
 const Feed = () => {
     return (
-        <div className="mt-3">
+        <div className="mt-3 md:mt-0">
             <WelcomeBanner />
             <CreatePost />
             <div className="create-post-divider flex items-center justify-between mt-1">
