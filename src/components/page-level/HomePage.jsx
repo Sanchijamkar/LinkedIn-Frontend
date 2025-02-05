@@ -5,7 +5,7 @@ import MainPageFooter from "../reusable/MainPageFooter";
 
 const HomePage = () => {
     return (
-        <div className="home-page w-full h-full mt-3">
+        <div className="home-page w-full h-full mt-3 ss:w-590 ss:mx-auto">
             <HomePageLeftPanel />
             <div className="show-more-less mt-3 flex justify-center">
                 <p className="flex items-center">
