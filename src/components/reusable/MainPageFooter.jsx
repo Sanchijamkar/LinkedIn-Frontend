@@ -19,7 +19,7 @@ const MainPageFooter = () => {
                     <p>LinkedIn</p>
                     <img src={LinkedInLogo} alt="LinkedIn Logo" />
                 </div>
-                <p>LinkedIn Corporation © 2025</p>
+                <p className="text-nowrap">LinkedIn Corporation © 2025</p>
             </div>
         </div>
     );

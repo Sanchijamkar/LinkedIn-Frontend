@@ -5,7 +5,7 @@ import MainPageFooter from "../reusable/MainPageFooter";
 
 const HomePage = () => {
     return (
-        <div className="home-page w-full h-full mt-3 ss:w-590 ss:mx-auto smd:w-779">
+        <div className="home-page w-full h-full mt-3 ss:w-590 ss:mx-auto smd:w-779 dl:w-977 dl:mx-auto">
             <div className="md:flex gap-2">
                 <HomePageLeftPanel />
                 <div className="show-more-less mt-3 flex justify-center">
@@ -16,10 +16,12 @@ const HomePage = () => {
                         </svg>
                     </p>
                 </div>
-                <div>
+                <div className="dl:flex dl:gap-4">
                     <Feed />
-                    <HomePageRightPanel />
-                    <MainPageFooter />
+                    <div>
+                        <HomePageRightPanel />
+                        <MainPageFooter />
+                    </div>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ import AdsLinkedInBanner from "./child-level-2/AdsLinkedInBanner";
 
 const HomePageRightPanel = () => {
     return (
-        <div className="home-page-right-panel mt-3">
+        <div className="home-page-right-panel mt-3 dl:mt-0">
             <div className="home-page-right-panel-container p-3">
                 <div className="flex items-center justify-between mb-2">
                     <h2>Add to your feed</h2>

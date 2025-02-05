@@ -12,9 +12,9 @@ const UserProfileCard = () => {
                 <h2 className="mt-0">John Cyril Espina</h2>
                 <p className="user-profile-university">Student at University of Science and Technology of Southern Philippines</p>
                 <p>Cagayan de Oro, Philippines</p>
-                <div className="flex items-center gap-1 user-profile-university-logo">
+                <div className="user-profile-university-logo flex items-center gap-1">
                     <img src={USTPLogo} alt="University Logo" />
-                    <p className="mt-2">University of Science and Technology of Southern Philippines</p>
+                    <p className="mt-2 pe-1">University of Science and Technology of Southern Philippines</p>
                 </div>
             </div>
         </div>
