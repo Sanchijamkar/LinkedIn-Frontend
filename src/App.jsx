@@ -6,7 +6,7 @@ import NetworkPage from "./components/page-level/NetworkPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/LinkedIn-Clone">
       <div className="main-container box-border w-screen pb-10">
         <MainHeader />
         <Routes>
