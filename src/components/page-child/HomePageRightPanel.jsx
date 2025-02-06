@@ -1,3 +1,4 @@
+import DailyPuzzleGames from "./child-level-2/DailyPuzzleGames";
 import FollowSuggestions from "./child-level-2/FollowSuggestions";
 import AddToYourFeedIcon from "../../assets/imgs/add-to-your-feed-icon.webp";
 import AdsLinkedInBanner from "./child-level-2/AdsLinkedInBanner";
@@ -6,6 +7,12 @@ import AdsLinkedInBanner from "./child-level-2/AdsLinkedInBanner";
 const HomePageRightPanel = () => {
     return (
         <div className="home-page-right-panel mt-3 dl:mt-0">
+            <div className="home-page-right-panel-container p-3 mb-2">
+                <div className="flex items-center justify-between mb-3">
+                    <h2>Today’s puzzle games</h2>
+                </div>
+                <DailyPuzzleGames />
+            </div>
             <div className="home-page-right-panel-container p-3">
                 <div className="flex items-center justify-between mb-2">
                     <h2>Add to your feed</h2>
