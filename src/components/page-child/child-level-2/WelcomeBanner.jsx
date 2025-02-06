@@ -4,7 +4,7 @@ const WelcomeBanner = () => {
   return (
 
 
-    <div className="welcome-banner bg-white mx-auto height-welcome-card w-auto relative">
+    <div className="welcome-banner mx-auto height-welcome-card w-auto relative">
       <div className='flex items-center justify-between pt-4 px-5'>
         <h1 className="text-xl font-medium text-black text-left">
           Welcome to LinkedIn

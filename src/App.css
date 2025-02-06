@@ -290,6 +290,7 @@
 .welcome-banner {
     border-top: 1px solid var(--border-main-separator-color);
     border-bottom: 1px solid var(--border-main-separator-color);
+    background-color: var(--header-main-color);
 }
 
 .welcome-banner-bg {

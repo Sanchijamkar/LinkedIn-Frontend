@@ -19,7 +19,7 @@ const MainHeader = () => {
     return (
         <div className="main-header w-full py-1 xs:py-0">
             <div className="flex justify-around lg:max-w-screen-lg mx-auto">
-                <div className="w-full flex gap-3  items-center justify-around px-2">
+                <div className="w-full flex gap-8  items-center justify-around px-2">
                     <div className="flex gap-3 me-3 items-center w-fit">
                         <img src={LinkedinLogo} alt="LinkedIn Logo" className="main-header-logo" />
                         <div className="flex items-center gap-1">
@@ -32,7 +32,7 @@ const MainHeader = () => {
                             <input type="text" placeholder="Search" className="main-header-search-bar hidden lg:block px-3 pb-1" />
                         </div>
                     </div>
-                    <div className="flex items-center w-fit gap-10">
+                    <div className="flex items-center w-fit gap-8">
                         {/* Home Button with Refresh Fix */}
                         <button onClick={ () => goToHome("/home")} className="flex flex-col items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="-51.2 -60.2 614.40 614.40" class="w-6 h-6 fill-current text-gray-800">
