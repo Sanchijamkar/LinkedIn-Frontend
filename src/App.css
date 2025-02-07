@@ -104,8 +104,8 @@
 /* Home Page Left Panel */
 .home-page-left-panel {
     width: 100%;
-    background-color: var(--header-main-color);
-    border-bottom: 1px solid var(--border-main-separator-color);
+    /* background-color: var(--header-main-color); */
+    /* border-bottom: 1px solid var(--border-main-separator-color); */
     border-top: 1px solid var(--border-main-separator-color);
 }
 
@@ -113,8 +113,8 @@
 .user-profile-card-overlay {
     z-index: 0;
     background-color: rgb(146, 201, 201);
-    border-top-right-radius: 9px;
-    border-top-left-radius: 9px;
+    border-top-right-radius:8px;
+    border-top-left-radius: 8px;    
 }
 
 .user-profile-card {
@@ -241,12 +241,12 @@
     border-bottom: 1px solid var(--border-main-separator-color);
 }
 
-.groups-and-events-divider {
+/* .groups-and-events-divider {
     width: 100%;
     height: 10px;
     background-color: var(--primary-color);
     border-bottom: 1px solid var(--border-main-separator-color);
-}
+} */
 
 /* Groups */
 .groups {

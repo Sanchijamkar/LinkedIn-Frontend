@@ -4,8 +4,8 @@ import Events from "../../reusable/Events";
 
 const GroupsAndEvents = () => {
     return (
-        <div className="groups-and-events">
-            <div className="groups-and-events-divider"></div>
+        <div className="groups-and-events ss:rounded-lg ss:border-l ss:border-r ss-border-bdr-separator">
+            {/* <div className="groups-and-events-divider"></div> */}
             <div className="p-3">
                 <Groups />
                 <Events />

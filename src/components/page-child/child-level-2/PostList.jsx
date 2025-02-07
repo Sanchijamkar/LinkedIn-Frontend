@@ -5,6 +5,8 @@ const PostList = () => {
         <div className="post-list">
             <div className="post-list-item-container w-full">
                 <PostListItem />
+                <PostListItem />
+                <PostListItem />
             </div>
         </div>
     );

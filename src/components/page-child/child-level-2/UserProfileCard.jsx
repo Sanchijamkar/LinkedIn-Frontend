@@ -4,7 +4,7 @@ import USTPLogo from "../../../assets/imgs/ustp-logo.png";
 
 const UserProfileCard = () => {
     return (
-        <div className="user-profile-card relative">
+        <div className="user-profile-card relative ss:rounded-tl-lg ss:rounded-tr-lg">
             <img src={UserProfileCardOverlay} alt="User Profile Card Overlay" className="user-profile-card-overlay w-full h-14 absolute left-0 top-0" />
             <div className="user-profile-card-header"></div>
             <div className="user-profile-card-info flex flex-col items-start justify-center gap-1 p-2 ps-3 pt-4">

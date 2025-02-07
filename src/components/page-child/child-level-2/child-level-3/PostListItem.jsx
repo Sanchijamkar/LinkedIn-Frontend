@@ -2,7 +2,7 @@ import PostItemPfp from "../../../../assets/imgs/post-item-pfp.jpg";
 
 const PostListItem = () => {
     return (
-        <div className="post-list-item w-full mt-1 p-3 pt-2">
+        <div className="post-list-item w-full mt-1 p-3 pt-2 ss:border-l ss:border-r ss:rounded-lg ss:border-bdr-separator mb-2">
             <div className="post-list-item-header flex justify-between items-center pb-2">
                 <p>Suggested</p>
                 <div className="post-list-item-header-right flex items-center justify-between gap-3">

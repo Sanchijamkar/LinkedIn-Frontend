@@ -4,7 +4,7 @@ import UserProfilePhoto from "../../../assets/imgs/profile-photo.png";
 const CreatePost = () => {
   return (
 
-    <div className='create-post'>       
+    <div className='create-post ss:rounded-lg ss:border-l ss:border-r ss-border-bdr-separator'>       
         <div className=" flex items-center ">
         <img 
             src={UserProfilePhoto} 
