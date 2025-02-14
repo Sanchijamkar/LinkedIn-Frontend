@@ -534,3 +534,23 @@
 
 
 /* Netork Page */
+.network-page-left-panel {
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.network-page-left-panel h2 {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.manage-my-network {
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.manage-my-network-nav p {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-grey-color);
+}
