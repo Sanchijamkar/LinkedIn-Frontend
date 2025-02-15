@@ -534,7 +534,7 @@
 
 
 /* Netork Page */
-.network-page-left-panel {
+.manage-my-network-container {
     background-color: var(--header-main-color);
     border-top: 1px solid var(--border-main-separator-color);
     border-bottom: 1px solid var(--border-main-separator-color);
