@@ -554,3 +554,14 @@
     font-weight: 600;
     color: var(--text-grey-color);
 }
+
+.network-page-right-panel-selection {
+    background-color: var(--header-main-color);
+    border-top: 1px solid var(--border-main-separator-color);
+    border-bottom: 1px solid var(--border-main-separator-color);
+}
+
+.network-page-right-panel-selection p {
+    font-size: 14px;
+    font-weight: 600;
+}
