@@ -1,12 +1,12 @@
 import NetworkPageLeftPanel from "../page-child/NetworkPageLeftPanel";
-import NetworkPageRightPanel from "../page-child/NetworkPageRightPanel";
+import NetworkPageMainPanel from "../page-child/NetworkPageMainPanel";
 
 const NetworkPage = () => {
     return (
         <div className="w-full">
            <NetworkPageLeftPanel />
            <div>
-               <NetworkPageRightPanel />
+               <NetworkPageMainPanel />
            </div>
         </div>
     );
