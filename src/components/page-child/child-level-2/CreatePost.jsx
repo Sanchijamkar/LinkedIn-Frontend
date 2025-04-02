@@ -1,5 +1,5 @@
 import React from 'react';
-import UserProfilePhoto from "../../../assets/imgs/profile-photo.png";
+import UserProfilePhoto from "../../../assets/imgs/sanchi.jpg";
 
 const CreatePost = () => {
   return (
