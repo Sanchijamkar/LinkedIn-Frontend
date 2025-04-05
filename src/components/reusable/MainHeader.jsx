@@ -82,8 +82,8 @@ const MainHeader = () => {
                             </g>
                             </g>
                             </svg>
-                            <p className="header-icon-text hidden d:block">Notification</p>
-                        </button>
+                           <p className="header-icon-text hidden d:block">Notification</p>
+                      </button>
                         {/* Profile Photo Button */}
                         <button onClick={() => navigate("/profile")} className="flex flex-col items-center">
                             <img src={ProfilePhoto} alt="User Profile Photo" className="main-header-profile-photo" />
