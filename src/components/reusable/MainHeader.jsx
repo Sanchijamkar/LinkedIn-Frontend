@@ -1,7 +1,7 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import LinkedinLogo from '../../assets/imgs/linkedin-logo.jpg';
 import SearchIcon from '../../assets/imgs/search-icon.jpg';
-import ProfilePhoto from '../../assets/imgs/Sanchi.jpg';
+import ProfilePhoto from '/assets/imgs/Sanchi.jpg';
 import PremiumIcon from "../../assets/imgs/premium-icon.webp";
 
 const MainHeader = () => {
